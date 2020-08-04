@@ -1,6 +1,6 @@
 <html>
     <head>
-        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+        <!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> -->
     </head>
     <body style="background: rosybrown; margin: 3em; display: block;">
         <div>
@@ -19,7 +19,7 @@
             document.getElementById("header").innerHTML = prompt
         </script>
         <script>
-            let myVar = "https://www.mapcrunch.com/p/" + "{{ myVar }}" + "_303.08_-9.27_0"
+            let myVar = "http://www.mapcrunch.com/p/" + "{{ myVar }}" + "_303.08_-9.27_0"
             let x = document.createElement('embed')
             x.src = myVar
             x.style = 'width:600;height:500;'
